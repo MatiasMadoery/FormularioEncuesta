@@ -1,0 +1,74 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: white;
+    line-height: 2;
+    margin: o;
+    background-image: linear-gradient( 115deg,
+    rgba(105, 6, 44, 0.71),
+    rgba(76, 76, 209, 0.895)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrYXwz7MrMXuQRGHD4WZPUv1_S7wfe2p5i4A&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+form{
+    background-color: rgba(0, 255, 255, 0.228);
+    padding: 1%;
+    margin: 0px 500px;    
+    width: 500px;
+    border-radius: 20px;
+    
+}
+
+label{
+    display: flex;
+    align-items: center;
+    font-size: larger;       
+}
+
+label,input,select,textarea{
+  margin: 0px;
+  
+}
+
+input{
+    width: 200PX;
+    height: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+select{
+    margin-bottom: 25px;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+textarea{
+    width: 80%;
+    height: 80px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+
+button{
+    border: none;
+    display: block;
+    padding: 20px;
+    background-color: rgb(45, 130, 110);
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    font-size: medium;
+} 
+

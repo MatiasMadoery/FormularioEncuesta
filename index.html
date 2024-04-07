@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Encuesta "ABAN TRANSPORTE ESPECIAL"
+        </h1>
+        <P>
+            Respondiendo la siguiente encuesta nos ayuda a mejorar nuestro servicio
+        </P>                
+    </header>
+    
+    <form>
+        <div>
+            <label>
+               <STrong>Nombre</STrong> 
+            </label>
+            <input type="text" placeholder="Ingrese su nombre" required>
+        </div> 
+        <div>
+            <label>
+                <STrong>Apellido</STrong>
+            </label>
+            <input type="text" placeholder="Ingrese su apellido" required>
+        </div>
+        <div>
+            <label>
+                <STrong>Email</STrong>
+            </label>
+            <input type="text" placeholder="Ingrese su email" required>
+        </div>
+        <div>
+            <label>
+                <STrong>Edad</STrong> (opcional)
+            </label>            
+            <input type="text" placeholder="Ingrese su edad">
+        </div>
+        <div>
+            <label>
+                <STrong>Seleccione su relacion con la empresa</STrong>
+            </label>
+            <select>
+                <option>Seleccione una opcion</option>
+                <option value="Empleado">Empleado</option>
+                <option value="Pasajero">Pasajero</option>
+                <option value="Padre/Madre">Padre/Madre</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </div>
+        <div>
+            <label>
+                <STrong>¿Recomendaria la empresa a otra persona?</STrong>
+            </label>
+            <label>
+                <input class="radio" type="radio" value="Definitivamente" checked>
+                Definitivamente                
+            </label>
+            <label>
+                <input class="radio" type="radio" value="No estoy seguro" checked>
+                No estoy seguro                
+            </label>
+            <label>
+                <input class="radio" type="radio" value="No" checked>
+                No                
+            </label>            
+        </div>
+        <div>
+            <label>
+                <strong>Escriba su comentario o sugerencia</strong>
+            </label>
+            <textarea placeholder="Escriba su comentario"></textarea>
+        </div>
+        <div>
+            <button type="submit">
+                <strong>Enviar</strong>
+            </button>
+        </div>
+    </form>
+</body>
+</html>
